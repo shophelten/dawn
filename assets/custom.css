@@ -1,0 +1,31 @@
+/**
+  * Payments icons
+  */
+.payment_icons {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.payment_icons svg {
+  height: auto;
+  Width: 40px;
+}
+
+.payment_icons {
+  margin-top: 15px;
+  justify-content: center;
+}
+
+footer .payment_icons {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  footer .payment_icons {
+    padding-left: 0px;
+    justify-content: center;
+  }
+}
